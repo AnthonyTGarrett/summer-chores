@@ -7,7 +7,10 @@ function mowYard(name, callback) {
   weedEat(name, trimHedges);
 }
 function weedEat(name, callback) {
-  console.log(`${name} finished using the weed eater.`);
+  setTimeout(() => {
+    console.log(`${name} finished using the weed eater.`);
+  }, 1500);
+
   console.log(`${name} fell asleep after moving the yard.`);
 }
 function trimHedges(name, callback) {
