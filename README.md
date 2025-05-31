@@ -14,6 +14,13 @@
 - Set up all task functions to return new promises
 - Set up rejects for every time the worker falls asleep
 
+### File asynAwaitVersion.js
+
+- Set up all task functions to return new promises
+- Modified doSummerChores to an async function
+- Added all function calls with await
+- Added try / catch block to handle promise rejections
+
 ## Installation
 
 - To run the script locally you should install [NodeJs](https://nodejs.org/en)
@@ -23,3 +30,4 @@
 - Execute the script running 'node callbackVersion.js'
 - First file for a multi-file program
 - Second file can also be executed by calling 'node promiseVersion.js'
+- Third file will be executed in the same manner with 'node asyncAwaitVersion.js';
