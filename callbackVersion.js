@@ -48,7 +48,7 @@ function waterGarden(name, callback) {
     } else {
       console.log(`${name} fell asleep after collecting the wood.`);
     }
-  });
+  }, 500);
 }
 
 function doSummerChores(name) {
