@@ -65,4 +65,4 @@ function doSummerChores(name) {
   });
 }
 
-doSummerChores('Tony');
+doSummerChores('Anthony');
